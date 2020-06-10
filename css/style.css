@@ -1,0 +1,84 @@
+html {
+   box-sizing: border-box; 
+}
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+body {
+    font-family: 'Playfair Display', serif;
+    color: #626262;
+    font-size: 14px;
+    line-height: 24px;
+}
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+.container {
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+.style-navigation {
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    list-style: none;
+    vertical-align: middle;
+}
+.distance {
+    margin-bottom: 31px;
+}
+.style-navigation li {
+    display: inline-block;
+}
+.style-navigation li:not(:last-child) {
+    margin-right: 108px;
+}
+.style-navigation a {
+   color: #626262;
+   line-height: 17px;
+   font-weight: 400px;
+   text-transform: uppercase;
+   text-decoration: none;
+   text-align: center;
+   
+}
+.style-navigation a:hover {
+    color: #03a9f4;
+}
+.page-nav {
+    padding: 72px 0;
+}
+
+.photo-caption {
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300px;
+    font-size: 14px;
+    line-height: 17px;
+    color: #b4ad9e;
+    text-transform: uppercase;
+}
+.stile-title {
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400px;
+    color: #626262;
+}
+.section-style{
+    display: inline-block;
+    width: 420px;
+    margin: 0px;
+    padding: 0px;
+    font-size: 0px;
+    margin-right: 60px;
+}
+.section-style:nth-child(2n) {
+    margin-right: 0px;
+}
+.section-style p{
+    font-size: 14px;
+}
